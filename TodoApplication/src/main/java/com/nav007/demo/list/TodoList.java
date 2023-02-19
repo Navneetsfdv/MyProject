@@ -8,7 +8,7 @@ import jakarta.persistence.Id;
 public class TodoList {
     
 	@Id
-	//@GeneratedValue
+    @GeneratedValue
 	private int id;
 	private String content;
 	
@@ -28,7 +28,7 @@ public class TodoList {
 	}
 	@Override
 	public String toString() {
-		return  "Priority Order " +id + " > " + content;
+		return   content;
 	}  
 	
 	

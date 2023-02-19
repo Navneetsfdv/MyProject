@@ -12,8 +12,8 @@
   <h1>My ToDo_LIST</h1>
   
       <form action ="add">
-    My Priority: <input type="text" name ="id"> <br>
-    Description: <input type="text" name ="content">
+   
+      <input type="text" name ="content">
       <input type="submit" value="Add">
   </form>
    <br>
